@@ -4,7 +4,7 @@ div.background {
     height: 100vh; 
     top: 0;
     left: 0;
-    background: white;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(182,182,182,1) 100%);
 }
 
 div.wrapper {
@@ -17,22 +17,7 @@ div.wrapper {
 
 div.introduction {
     font-size: 35px;
-    font-weight: 200;
     display: inline-block;
-}
-
-p {
-    height: 50px;
-    margin: 0 0.3em 0 0;
-    float: left;
-}
-
-b {
-    height: 50px;
-    line-height: 50px;
-    text-align: left;
-    float: left;
-    overflow: hidden;
 }
 
 span.text-slider {
@@ -51,4 +36,41 @@ span.text-slider {
     40%{top:-100px;}
     60%{top:-150px;}
     80%{top:-200px;}
+}
+
+div.view-my-work {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 150px;
+    margin-left: -75px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+div.view-my-work:hover {
+    font-weight: 400;
+}
+
+div.view-my-work:hover > img {
+    height: 30px;
+} 
+
+img {
+    height: 25px;
+    fill: royalblue;
+}
+
+p {
+    height: 50px;
+    margin: 0 0.3em 0 0;
+    float: left;
+}
+
+b {
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    float: left;
+    overflow: hidden;
 }
