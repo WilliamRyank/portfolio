@@ -1,0 +1,16 @@
+h4, p {
+    color: #444649;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    text-align: center;
+}

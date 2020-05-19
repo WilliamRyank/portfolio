@@ -1,10 +1,8 @@
 div.background {
-    position: fixed;
     width: 100vw;
     height: 100vh; 
-    top: 0;
-    left: 0;
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(182,182,182,1) 100%);
+    background-attachment: fixed;
 }
 
 div.wrapper {
@@ -13,6 +11,13 @@ div.wrapper {
     top: 50%;
     margin-top: -25px;
     text-align: center;
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 div.introduction {
@@ -26,8 +31,8 @@ span.text-slider {
     left: 0;
     white-space: nowrap;
     color: royalblue;
-    animation: move 5s 1s infinite;
-    -webkit-animation: move 5s 1s infinite;
+    animation: move 7.5s 1.5s infinite;
+    -webkit-animation: move 7.5s 1.5s infinite;
 }
 
 @keyframes move {
@@ -39,20 +44,25 @@ span.text-slider {
 }
 
 div.view-my-work {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 5%;
     left: 50%;
     width: 150px;
     margin-left: -75px;
     font-size: 20px;
     cursor: pointer;
+    text-align: center;
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
 }
 
 div.view-my-work:hover {
+    transition-duration: 0.2s;
     font-weight: 400;
 }
 
 div.view-my-work:hover > img {
+    transition-duration: 0.2s;
     height: 30px;
 } 
 
