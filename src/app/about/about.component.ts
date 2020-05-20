@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
+  skills = ["Javascript", "Java", "Python", 
+            "C", "HTML", "CSS", "NodeJS", 
+            "Angular", "Redux", "ReactJS"]
   constructor() { }
 
   ngOnInit(): void {

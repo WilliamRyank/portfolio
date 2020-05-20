@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class LandingComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit(): void {
   }
 
+  viewWork() {
+    document.getElementById('about').scrollIntoView(true);
+  }
 }

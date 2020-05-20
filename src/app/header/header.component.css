@@ -1,11 +1,12 @@
 h1 {
     text-align: center;
-    margin: 50px 0 0 0;
+    padding: 50px 0 0 0;
+    margin: 0;
     color: #444649;
 }
 
 hr {
     width: 50px;
-    margin: 10px auto 50px auto;
+    margin: 10px auto 100px auto;
     border: 2px solid #444649;
 }
