@@ -1,0 +1,16 @@
+<a href="{{project.projectLink}}" target="_blank">
+    <div class="project">
+        <img src="assets/{{project.imgPath}}.PNG">
+        <h3>{{ project.projectName }}</h3>
+        <p>{{ project.projectDate }}</p>
+        <hr>
+        <p class="description">
+            {{ project.projectDesc }}
+        </p>
+        <b>
+            <p>
+                <span *ngFor="let skill of project.projectSkills">{{ skill }}</span>
+            </p> 
+        </b>
+    </div>   
+</a>

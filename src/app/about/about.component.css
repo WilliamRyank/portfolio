@@ -5,7 +5,6 @@
 .row.is-flex {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
 }
 .row.is-flex > [class*='col-'] {
     display: flex;

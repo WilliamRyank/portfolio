@@ -1,0 +1,36 @@
+p.description {
+    font-size: 18px;
+}
+
+.project {
+    padding-bottom: 20px;
+}
+
+.project:hover > h3, .project:hover > b {
+    color: royalblue;
+}
+
+span {
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    width: 20%;
+    border: 1px solid royalblue;
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #444649;
+}
+

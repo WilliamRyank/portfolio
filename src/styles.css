@@ -9,3 +9,11 @@ html, body, hr{
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
+
+.container {
+	padding-bottom: 50px;
+}
+
+.col-md-4 {
+	padding-bottom: 30px;
+}

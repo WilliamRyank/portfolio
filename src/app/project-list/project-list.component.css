@@ -1,0 +1,17 @@
+.background {
+    background-color: #7070701A;
+}
+
+div:hover > div.project {
+    transition-duration: 0.5s;
+    opacity: 0.5;
+}
+
+div:hover > div.project:hover {
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+
+.project {
+    cursor: pointer;
+}
