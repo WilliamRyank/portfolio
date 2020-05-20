@@ -16,6 +16,14 @@
     font-size: 200px;
 }
 
+#right {
+    padding-left: 0;
+}
+
+#left {
+    padding-right: 0;
+}
+
 h4, p {
     color: #444649;
 }
