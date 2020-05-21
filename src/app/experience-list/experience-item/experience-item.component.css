@@ -1,0 +1,25 @@
+.description {
+    font-size: 16px;
+}
+
+.skills {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.skills > span {
+    color: #444649CC;
+}
+
+hr {
+    border: 1px solid royalblue;
+    margin-bottom: 10px;
+}
+
+span {
+    margin-right: 15px;
+}
+
+p {
+    margin: 10px auto;
+}

@@ -2,7 +2,7 @@
     background-color: #7070701A;
 }
 
-div:hover > div.project {
+.project:hover > div.project {
     transition-duration: 0.5s;
     opacity: 0.5;
 }

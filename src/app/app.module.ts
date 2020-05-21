@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectItemComponent } from './project-list/project-item/project-item.component';
+import { ExperienceListComponent } from './experience-list/experience-list.component';
+import { ExperienceItemComponent } from './experience-list/experience-item/experience-item.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ProjectItemComponent } from './project-list/project-item/project-item.c
     HeaderComponent,
     AboutComponent,
     ProjectListComponent,
-    ProjectItemComponent
+    ProjectItemComponent,
+    ExperienceListComponent,
+    ExperienceItemComponent
   ],
   imports: [
     BrowserModule

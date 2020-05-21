@@ -1,0 +1,13 @@
+<h3>{{ experience.company }}, {{ experience.location }}</h3>
+<p class="description">{{ experience.role }}</p>
+<hr>
+<div class="description">
+    <p *ngFor="let description of experience.description">
+    <span [ngStyle]="{'color': 'royalblue'}">‣</span> {{ description }}
+    </p>
+</div>
+<b>
+    <p class="skills">
+        <span *ngFor="let skill of experience.skills">{{ skill }}</span>
+    </p> 
+</b>
