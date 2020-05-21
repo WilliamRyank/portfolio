@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .row.is-flex > [class*='col-'] {
     display: flex;
     flex-direction: column;
@@ -19,6 +20,11 @@
 @media screen and (max-width: 600px) {
     .bracket {
       font-size: 150px;
+      padding: 0;
+    }
+
+    .test {
+        padding: 0;
     }
     
     li {
@@ -60,7 +66,6 @@ ul {
     position: relative;
     width: 100%;
     margin: auto;
-    /* bottom: -10%; */
     padding: 0;
 }
 
