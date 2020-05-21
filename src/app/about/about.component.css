@@ -16,7 +16,7 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .bracket {
       font-size: 150px;
     }
@@ -24,12 +24,14 @@
     li {
         font-size: 15px;
     }
+
   }
 
-  @media only screen and (min-width: 600px) {
+  @media screen and (min-width: 450px) {
     ul {
         bottom: -10%;
     }
+
   }
 
 #right {
@@ -58,7 +60,7 @@ ul {
     position: relative;
     width: 100%;
     margin: auto;
-    bottom: -10%;
+    /* bottom: -10%; */
     padding: 0;
 }
 
