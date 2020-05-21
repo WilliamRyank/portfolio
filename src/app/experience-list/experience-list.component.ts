@@ -15,7 +15,7 @@ export class ExperienceListComponent implements OnInit {
       ['Developed operational tools for loan fraud tagging and pricing simulation.', 
       'Increased the unit test coverage for the website and operational tools.', 
       'Improved the End-to-End test coverage for the website.', 
-      'Worked in an agile environment'],
+      'Worked in an agile environment.'],
       ['ReactJS', 'Redux', 'Jest', 'TestCafe'])
   ]
   constructor() { }

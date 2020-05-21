@@ -34,6 +34,12 @@ span.text-slider {
     -webkit-animation: move 7.5s 0.5s infinite;
 }
 
+@media only screen and (max-width: 600px) {
+    div.introduction {
+      font-size: 30px;
+    }
+  }
+
 @keyframes move {
     0%{top:0px;}
     20%{top:-50px;}
