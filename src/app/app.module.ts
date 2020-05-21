@@ -9,6 +9,7 @@ import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectItemComponent } from './project-list/project-item/project-item.component';
 import { ExperienceListComponent } from './experience-list/experience-list.component';
 import { ExperienceItemComponent } from './experience-list/experience-item/experience-item.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ExperienceItemComponent } from './experience-list/experience-item/exper
     ProjectListComponent,
     ProjectItemComponent,
     ExperienceListComponent,
-    ExperienceItemComponent
+    ExperienceItemComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule

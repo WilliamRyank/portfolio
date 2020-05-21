@@ -1,0 +1,32 @@
+.background {
+    background-color: #252934;
+}
+
+.icons {
+    margin-top: 50px;
+}
+
+.row {
+    text-align: center;
+}
+
+.attribute > div > a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.attribute {
+    color: white;
+}
+
+svg {
+    width: 30%;
+    height: 25px;
+    fill: white;
+    cursor: pointer;
+}
+
+svg:hover {
+    fill: royalblue;
+    transition-duration: 0.3s;
+}
