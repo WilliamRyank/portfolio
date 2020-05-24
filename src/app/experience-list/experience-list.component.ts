@@ -13,8 +13,8 @@ export class ExperienceListComponent implements OnInit {
       'Singapore', 
       'Software Engineering Intern', 
       ['Developed operational tools for loan fraud tagging and pricing simulation.', 
-      'Increased the unit test coverage for the website and operational tools.', 
-      'Improved the End-to-End test coverage for the website.', 
+      'Increased unit test coverage for the website and operational tools.', 
+      'Improved End-to-End test coverage for the website.', 
       'Worked in an agile environment.'],
       ['ReactJS', 'Redux', 'Jest', 'TestCafe'])
   ]

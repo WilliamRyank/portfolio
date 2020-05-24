@@ -12,6 +12,7 @@
 }
 
 hr {
+    background-color: royalblue;
     border: 1px solid royalblue;
     margin-bottom: 10px;
 }

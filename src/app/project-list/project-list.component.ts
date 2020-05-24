@@ -9,7 +9,8 @@ import { Project } from './project';
 
 export class ProjectListComponent implements OnInit {
   projectList = [
-    new Project('interview-pro', 'Interview Pro', '29 May 2020', 'Website to prepare for interview with automatic grammar checking, voice-to-text functionality, facial emotion recognition.', ['JavaScript', 'NodeJS'], 'http://interviewpro.herokuapp.com/')
+    new Project('interview-pro', 'Interview Pro', 'January 2020', 'Website to prepare for interview with automatic grammar checking, voice-to-text functionality, facial emotion recognition.', ['JavaScript', 'NodeJS'], 'http://interviewpro.herokuapp.com/'),
+    new Project('organice', 'ORGANice', 'November 2019', 'Desktop application to facilitate the matching of organ transplants between patients and organ donors in hospitals.', ['Java', 'JavaFX'], 'https://ay1920s1-cs2103t-t13-1.github.io/main/')
   ]
 
   constructor() { }

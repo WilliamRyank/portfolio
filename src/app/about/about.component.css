@@ -19,12 +19,7 @@
 
 @media screen and (max-width: 600px) {
     .bracket {
-      font-size: 150px;
-      padding: 0;
-    }
-
-    .test {
-        padding: 0;
+      font-size: 125px;
     }
     
     li {
