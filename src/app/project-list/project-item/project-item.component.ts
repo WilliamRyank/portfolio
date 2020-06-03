@@ -8,6 +8,7 @@ import { Project } from '../project';
 })
 export class ProjectItemComponent implements OnInit {
   @Input() project: Project;
+  @Input() delay: number;
   constructor() { }
 
   ngOnInit(): void {

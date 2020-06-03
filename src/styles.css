@@ -18,3 +18,22 @@ html, body, hr{
 	padding-bottom: 30px;
 }
 
+h1.header {
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 0;
+    color: #444649;
+}
+
+hr.header {
+    width: 50px;
+    margin: 10px auto 50px auto;
+    border: 2px solid #444649;
+}
+
+@media screen and (max-width: 600px) {
+    h1.header {
+        font-size: 30px;
+    }
+  }
+

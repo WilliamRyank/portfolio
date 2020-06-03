@@ -1,13 +1,14 @@
 <div class="background">
-    <app-header text="PROJECT"></app-header>
+    <h1 class="header" data-aos="fade-right">PROJECT</h1>
+    <hr class="header" data-aos="fade-right">
 
     <div class="container">
         <div>
             <!-- <div class="col-md-4 col-sm-6 col-xs-12">
             </div> -->
             <div class="project">
-                <div class="col-md-4 col-sm-6 col-xs-12 project" *ngFor="let project of projectList">
-                    <app-project-item [project]="project"></app-project-item>
+                <div class="col-md-4 col-sm-6 col-xs-12 project" *ngFor="let project of projectList; let i = index">
+                    <app-project-item [project]="project" [delay]="i"></app-project-item>
                 </div>
             </div>
             <!-- <div class="col-md-4 col-sm-6 col-xs-12">

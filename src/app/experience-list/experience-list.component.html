@@ -1,7 +1,9 @@
-<app-header text="EXPERIENCE"></app-header>
+<h1 class="header" data-aos="fade-left">EXPERIENCE</h1>
+<hr class="header" data-aos="fade-left">
 
 <div class="container">
-    <div class="row" *ngFor="let experience of experienceList">
+    <div class="row" *ngFor="let experience of experienceList; let i = index" 
+        [attr.data-aos]="[i % 2 === 0 ? 'fade-right': 'fade-left']">
         <div class="col-md-2"></div> <!-- Buffer space -->
         <div class="col-md-8">
             <app-experience-item [experience]="experience"></app-experience-item>
